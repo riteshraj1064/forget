@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/reset-password" element={<Form />} />
+        <Route path="/" element={<Form />} />
       </Routes>
     </BrowserRouter>
   );
