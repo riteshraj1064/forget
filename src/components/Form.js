@@ -61,7 +61,7 @@ const Form = () => {
       );
       setBusy(false);
       if (data.success) {
-        navigate("/reset-password", { replace: true });
+        navigate("/", { replace: true });
         setSuccess(true);
       }
     } catch (error) {
@@ -87,7 +87,8 @@ const Form = () => {
   if (success)
     return (
       <div className="w-screen h-screen flex justify-center items-center">
-        <h1>Your Passowrd is change successfully</h1>
+        <h1>Your Passowrd is change successfully </h1>
+        <p>Go and Login your app with new password</p>
       </div>
     );
   return (
