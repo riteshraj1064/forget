@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 import axios from "axios";
 
-const BaseUrl = "https://app-quiz.onrender.com/api/user";
+const BaseUrl = "https://naughty-red-crane.cyclic.app/api/user";
 const Form = () => {
   const location = useLocation();
   const navigate = useNavigate();
@@ -87,7 +87,7 @@ const Form = () => {
   if (success)
     return (
       <div className="w-screen h-screen flex justify-center items-center">
-        <h1>Your Passowrd is change successfully </h1>
+        <h1>Your Passowrd is change successfully </h1><br></br>
         <p>Go and Login your app with new password</p>
       </div>
     );
@@ -144,7 +144,7 @@ const Form = () => {
           </div>
         </form>
         <p className="text-center text-gray-500 text-xs">
-          &copy;2020 Acme Corp. All rights reserved.
+          &copy;2022 Quizzy. All rights reserved.
         </p>
       </div>
     </div>
